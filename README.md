@@ -22,7 +22,7 @@ Fixes bypass caused by other plugins unmuting clients.
 ## Instructions
 * Download plugin
 * Copy plugin/translations to your server
-* Optionally configure settings in [B]cfg/sourcemod/antivoiceloopback.cfg[/B
+* Optionally configure settings in **cfg/sourcemod/antivoiceloopback.cfg**
 
 ## AlliedModders Plugin Thread
 Link: [https://forums.alliedmods.net/showthread.php?p=2569866](https://forums.alliedmods.net/showthread.php?p=2569866)
