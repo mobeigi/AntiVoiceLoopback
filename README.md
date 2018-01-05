@@ -5,6 +5,9 @@
 <p align="center">Block HLDJ/SLAM/Voice Loopback tools</p>
 <h2></h2>
 </p>
+<br />
+
+[![GitHub release](https://img.shields.io/github/release/InvexByte/AntiVoiceLoopback.svg?style=flat-square)](https://github.com/InvexByte/AntiVoiceLoopback/releases) [![GitHub issues](https://img.shields.io/github/issues/InvexByte/AntiVoiceLoopback.svg?style=flat-square)](../../issues) [![GitHub issues](https://img.shields.io/github/issues-pr/InvexByte/AntiVoiceLoopback.svg?style=flat-square)](../../pulls) [![GitHub license](https://img.shields.io/github/license/InvexByte/AntiVoiceLoopback.svg?style=flat-square)](LICENSE.md)
 
 ## Description
 Blocks voice loopback in game which should break most tools like HLDJ/SLAM.  
