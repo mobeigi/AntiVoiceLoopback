@@ -1,6 +1,3 @@
-# AntiVoiceLoopback
-Block HLDJ/SLAM/Voice Loopback tools
-
 <p align="center">
 <img src="https://i.imgur.com/oA5O3gz.png" height="96px" width="96px"/>
 <br/>
