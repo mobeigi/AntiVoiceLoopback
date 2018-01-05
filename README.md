@@ -7,7 +7,12 @@
 </p>
 <br />
 
-[![GitHub release](https://img.shields.io/github/release/InvexByte/AntiVoiceLoopback.svg?style=flat-square)](https://github.com/InvexByte/AntiVoiceLoopback/releases) [![GitHub issues](https://img.shields.io/github/issues/InvexByte/AntiVoiceLoopback.svg?style=flat-square)](../../issues) [![GitHub issues](https://img.shields.io/github/issues-pr/InvexByte/AntiVoiceLoopback.svg?style=flat-square)](../../pulls) [![GitHub license](https://img.shields.io/github/license/InvexByte/AntiVoiceLoopback.svg?style=flat-square)](LICENSE.md)
+<p align="center">
+<a href="../../releases"><img src="https://img.shields.io/github/release/InvexByte/AntiVoiceLoopback.svg?style=flat-square" /></a>
+<a href="../../issues"><img src="https://img.shields.io/github/issues/InvexByte/AntiVoiceLoopback.svg?style=flat-square" /></a>
+<a href="../../pulls"><img src="https://img.shields.io/github/issues-pr/InvexByte/AntiVoiceLoopback.svg?style=flat-square" /></a> 
+<a href="LICENSE.md"><img src="https://img.shields.io/github/license/InvexByte/AntiVoiceLoopback.svg?style=flat-square" /></a>
+</p>
 
 ## Description
 Blocks voice loopback in game which should break most tools like HLDJ/SLAM.  
