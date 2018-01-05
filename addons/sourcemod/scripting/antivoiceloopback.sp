@@ -10,7 +10,7 @@
 /*********************************
  *  Plugin Information
  *********************************/
-#define PLUGIN_VERSION "1.00"
+#define PLUGIN_VERSION "1.01"
 
 public Plugin myinfo =
 {
@@ -58,6 +58,8 @@ public void OnPluginStart()
   //ConVars
   g_Cvar_AntiSpamMaxChanges = CreateConVar("sm_avlb_antispammaxchanges", "5", "Number of voice_loopback changes allowed over 'sm_avlb_antispamduration' seconds");
   g_Cvar_AntiSpamDuration = CreateConVar("sm_avlb_antispamduration", "60.0", "Duration to count voice_loopback changed over in seconds", _, true, 1.0);
+
+  AutoExecConfig(true, "antivoiceloopback");
 
   //Lateload
   if (g_LateLoaded) {
