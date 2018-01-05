@@ -10,7 +10,7 @@
 /*********************************
  *  Plugin Information
  *********************************/
-#define PLUGIN_VERSION "1.01"
+#define PLUGIN_VERSION "1.02"
 
 public Plugin myinfo =
 {
@@ -168,8 +168,8 @@ public void ConVarQuery_VoiceLoopback(QueryCookie cookie, int client, ConVarQuer
       KickClient(client, "%t", "Spamming Voice Loopback");
       return;
     }
-
-    CreateTimer(g_Cvar_AntiSpamDuration.FloatValue, Timer_RemoveClientSettingsCount);
+    
+    CreateTimer(g_Cvar_AntiSpamDuration.FloatValue, Timer_RemoveClientSettingsCount, GetClientUserId(client));
   }
 }
 
@@ -194,9 +194,11 @@ public void BaseComm_OnClientMute(int client, bool muteState)
  *  Timers
  *********************************/
 
-public Action Timer_RemoveClientSettingsCount(Handle timer, int client)
+public Action Timer_RemoveClientSettingsCount(Handle timer, int userid)
 {
-  if (!IsClientInGame(client) || IsFakeClient(client))
+  int client = GetClientOfUserId(userid);
+
+  if (!client || !IsClientInGame(client) || IsFakeClient(client))
     return Plugin_Stop;
 
   if (g_ClientSettingsChangedCount[client] > 0)
