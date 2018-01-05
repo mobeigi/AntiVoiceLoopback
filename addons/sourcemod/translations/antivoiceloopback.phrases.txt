@@ -1,0 +1,19 @@
+"Phrases"
+{
+	"Mute Message"
+	{
+		"en"  "[SM] You have been muted for using voice loopback. Please set 'voice_loopback 0' in console."
+	}
+    "Unmute Message"
+	{
+		"en"  "[SM] You have been unmuted as you are no longer using voice loopback."
+	}
+    "Mute Reason"
+	{
+		"en"  "Muted by Anti Voice Loopback"
+    }
+    "Spamming Voice Loopback"
+	{
+		"en"  "Kicked for Spamming Voice Loopback"
+	}
+}
