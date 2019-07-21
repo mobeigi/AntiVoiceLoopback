@@ -8,10 +8,10 @@
 <br />
 
 <p align="center">
-<a href="../../releases"><img src="https://img.shields.io/github/release/InvexByte/AntiVoiceLoopback.svg?style=flat-square" /></a>
-<a href="../../issues"><img src="https://img.shields.io/github/issues/InvexByte/AntiVoiceLoopback.svg?style=flat-square" /></a>
-<a href="../../pulls"><img src="https://img.shields.io/github/issues-pr/InvexByte/AntiVoiceLoopback.svg?style=flat-square" /></a> 
-<a href="LICENSE.md"><img src="https://img.shields.io/github/license/InvexByte/AntiVoiceLoopback.svg?style=flat-square" /></a>
+<a href="../../releases"><img src="https://img.shields.io/github/release/mobeigi/AntiVoiceLoopback.svg?style=flat-square" /></a>
+<a href="../../issues"><img src="https://img.shields.io/github/issues/mobeigi/AntiVoiceLoopback.svg?style=flat-square" /></a>
+<a href="../../pulls"><img src="https://img.shields.io/github/issues-pr/mobeigi/AntiVoiceLoopback.svg?style=flat-square" /></a> 
+<a href="LICENSE.md"><img src="https://img.shields.io/github/license/mobeigi/AntiVoiceLoopback.svg?style=flat-square" /></a>
 </p>
 
 ## Description
